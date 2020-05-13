@@ -1,6 +1,7 @@
 import React from 'react'
 import { Route } from 'react-router-dom'
-
+import Landing from '../Landing/Landing'
+import Adopt from '../Adopt/Adopt'
 
 function Root() {
   return (
@@ -10,12 +11,12 @@ function Root() {
       <Route
         exact
         path={'/'}
-        // component={landingPage}
+        component={Landing}
         />
         <Route
           exact
           path={'/adopt'}
-          // component={Adopt}
+          component={Adopt}
           />
     </main>
   </>
