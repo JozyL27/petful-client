@@ -1,9 +1,25 @@
 import React from 'react'
+import { Route } from 'react-router-dom'
+
 
 function Root() {
-  return <div>
+  return (
+  <>
     <h1>Petful</h1>
-  </div>
+    <main>
+      <Route
+        exact
+        path={'/'}
+        // component={landingPage}
+        />
+        <Route
+          exact
+          path={'/adopt'}
+          // component={Adopt}
+          />
+    </main>
+  </>
+  )
 }
 
 export default Root
