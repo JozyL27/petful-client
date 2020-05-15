@@ -34,7 +34,7 @@ const PetfulService = {
             )
     },
 
-    removePetAndPerson(type) {
+    deletePetAndPerson(type) {
         return fetch(`${config.API_ENDPOINT}/pets`, {
             method: 'DELETE',
             headers: {

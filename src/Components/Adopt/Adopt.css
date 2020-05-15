@@ -1,0 +1,83 @@
+.adoptMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.adoptionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto 30px auto;
+}
+
+.dog-container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cat-container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.pet-img {
+    height: 200px;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+.queueContainer {
+    margin: 30px auto 70px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.adoptH3 {
+    margin-bottom: 15px;
+}
+
+.add-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#name {
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 8px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.peopleContainer {
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 .5rem .8rem #888888;
+    padding: 18px;
+}
+
+.current {
+    color: rgb(150, 20, 20);
+}
+
+.noPets {
+    text-align: center;
+    margin: 30px auto 30px auto;
+    color: rgb(150, 20, 20);
+}
+
+@media screen and (min-width: 720px) {
+    .adoptionContainer {
+        flex-direction: row;
+    }
+}
