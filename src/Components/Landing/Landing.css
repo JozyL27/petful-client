@@ -1,0 +1,34 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.landingImg {
+    height: 250px;
+}
+
+.landingPara {
+    text-align: center;
+    width: 70%;
+    margin-top: 60px;
+    line-height: 1.5;
+}
+
+.landingLink {
+    margin-top: 20px;
+}
+
+.landingButton {
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.landingButton:hover {
+    background-color: rgb(68, 216, 68);
+    color: white;
+}
